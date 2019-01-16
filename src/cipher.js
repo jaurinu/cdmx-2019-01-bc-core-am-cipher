@@ -1,7 +1,5 @@
 window.cipher = {
 //..
-  encode: () => {
-
-  }
-
+  encode: () => {},
+  decode: () => {}
 };
