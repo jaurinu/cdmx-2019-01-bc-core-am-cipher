@@ -1,4 +1,86 @@
 # Cifrado César
+* [ ] `README.md` incluye info sobre proceso y decisiones de diseño.
+
+El proceso para el diseño del Cipher surgió a partir de la necesidad de mantener información importante y
+confidencial de manera privada y segura al compartirla con otras personas.
+
+Para comenzar a diseñar el prototipo del programa se siguieron los siguientes pasos:
+
+- Selección de usuario.
+- Investigación de aplicaciones similares en el mercado.
+- Herramienta de mensajería interna de una organización de derechos humanos en una zona de conflicto.
+- Mensajería secreta para parejas.
+
+
+
+
+
+
+
+### Habilidades Blandas
+
+| Habilidad |
+|-----------|
+| Planificación y organización |
+| Autoaprendizaje |
+| Solución de problemas |
+| Dar y recibir feedback |
+| Adaptabilidad |
+| Trabajo en equipo |
+| Comunicación eficaz |
+| Presentaciones |
+
+
+
+
+
+
+
+
+
+
+
+
+* [ ] `README.md` explica claramente quiénes son los usuarios y su relación con
+  el producto.
+* [ ] `README.md` explica claramente cómo el producto soluciona los
+  problemas/necesidades de los usuarios.
+* [ ] Usa VanillaJS.
+* [ ] No utiliza `this`.
+* [ ] Implementa `cipher.encode`.
+* [ ] Implementa `cipher.decode`.
+* [ ] Pasa linter con configuración provista.
+* [ ] Pasa pruebas unitarias.
+* [ ] Pruebas unitarias cubren 70% de _statements_, _functions_ y _lines_, y un
+  mínimo del 50% de _branches_.
+* [ ] Interfaz permite elegir el `offset` o _desplazamiento_ a usar en el
+  cifrado/descifrado.
+* [ ] Interfaz permite escribir un texto para ser cifrado.
+* [ ] Interfaz muestra el resultado del cifrado correctamente.
+* [ ] Interfaz permite escribir un texto para ser descifrado.
+* [ ] Interfaz muestra el resultado del descifrado correctamente.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+_____________________________________
+
+# Cifrado César
 
 Cifrar significa codificar. El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher) es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio César lo usaba para enviar órdenes secretas a sus generales en los campos de batalla.
 

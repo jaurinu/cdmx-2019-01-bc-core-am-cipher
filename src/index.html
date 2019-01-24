@@ -3,33 +3,55 @@
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Caesar Cipher</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+    crossorigin="anonymous">
   <link rel="stylesheet" href="style.css" />
+  
 </head>
 
 <body>
-  <div id="root">
+  <header>
+    <div class="wrapper">
+      <div class="logo">
+        <img src="./assets/spylogo.png" alt="">
+      </div>
+      <nav>
+        <a href="#">Ayuda</a>
+      </nav>
+    </div>
+  </header>
 
-    <h1 class="h1">Encriptar</h1>
-    <p class="p1">Desencriptar</p>
-    <input type="text" name="offset" id="offset" placeholder="Ingresa desplazamiento"><br><br>
-    <textarea name="mensaje" id="mensaje" cols="40" rows="15" placeholder="Ingresa mensaje a cifrar"></textarea><br>
-    <input type="button" name="botonCifrar" id="botonCifrar" value="Cifrar">
-    <input type="button" name="botonDescifrar" id="botonDescifrar" value="Descifrar"><br>
+  <section id="root">
+      <article class="contenido wrapper">
+      <input type="number" name="offset" id="offset" class="desplazamiento" placeholder="Ingresa desplazamiento"><br><br>
+      <textarea name="mensaje" id="mensaje" cols="40" rows="5" class="resultado" placeholder="Ingresa mensaje"></textarea><br>
+      <div class="resultado" id="resCifrado" ></div>
+    </article>
+  </section>
 
-    <div class="resultado" id="resCifrado"></div>
-   <!--<textarea name="msjCifrado" id="msjCifrado" cols="40" rows="15" >
-      <span id="resCifrado"></span>
-    </textarea><br>-->
+  <footer>
+
+     <input type="button" name="botonCifrar" id="botonCifrar" value="Cifrar">
+     <input type="button" name="botonDescifrar" id="botonDescifrar" value="Descifrar"><br>
+     <i class="fas fa-lock" style="font-size:48px;color:#e77018;"></i>
+     <i class="fas fa-lock-open" style="font-size:48px;color:#e77018;"></i>
+
+        <!--<input type="image" class="botonimagencifrar" id="botonCifrar" src="./assets/mirilla.png" ;>
+      <input type="image" class="fas fa-lock" id="botonCifrar" ;>
+
+      <i class="fas fa-lock"></i>
+      <i class="fas fa-lock-open"></i>
+      <i class="fas fa-user-secret"></i>-->
+    </footer>
 
 
-  </div>
-
-  
 
 
   <script src="cipher.js"></script>
   <script src="index.js"></script>
-</body>https://github.com/jaurinu/cdmx-2019-01-bc-core-am-cipher.git
+</body>
+<!--https://github.com/jaurinu/cdmx-2019-01-bc-core-am-cipher.git-->
 
 </html>
