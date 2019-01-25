@@ -44,7 +44,9 @@ La metodología que se utilizó para el desarrollo del programa fue la siguiente
 
 
 ![wireframes](https://raw.githubusercontent.com/jaurinu/cdmx-2019-01-bc-core-am-cipher/master/src/assets/Prototipo/01_interfaz_1.jpg)
+
 ![wireframes](https://raw.githubusercontent.com/jaurinu/cdmx-2019-01-bc-core-am-cipher/master/src/assets/Prototipo/02_interfaz_dos.jpg)
+
 ![wireframes](https://github.com/jaurinu/cdmx-2019-01-bc-core-am-cipher/blob/master/src/assets/Prototipo/03_HTML%20pantalla.jpg?raw=true)
 
 
@@ -53,6 +55,7 @@ La metodología que se utilizó para el desarrollo del programa fue la siguiente
 - Prototipo en aplicación Marvel.
 
 Pantallas ![pantallas](https://raw.githubusercontent.com/jaurinu/cdmx-2019-01-bc-core-am-cipher/master/src/assets/Prototipo/04_Pantallas%20marvel.jpg) 
+
 
 Diagrama de flujo ![diagrama](https://raw.githubusercontent.com/jaurinu/cdmx-2019-01-bc-core-am-cipher/master/src/assets/Prototipo/flowmap.png)
 
@@ -87,7 +90,7 @@ Diagrama de flujo ![diagrama](https://raw.githubusercontent.com/jaurinu/cdmx-201
 
     Puedes conocer el proyecto [aqui](https://jaurinu.github.io/cdmx-2019-01-bc-core-am-cipher/src/)
 
-    
+
     ![pantallafinal](https://github.com/jaurinu/cdmx-2019-01-bc-core-am-cipher/blob/master/src/assets/Prototipo/pantalla%20final.jpg?raw=true)
 
 
