@@ -8,50 +8,40 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
     crossorigin="anonymous">
   <link rel="stylesheet" href="style.css" />
-  
 </head>
 
 <body>
   <header>
-    <div class="wrapper">
-      <div class="logo">
-        <img src="./assets/spylogo.png" alt="">
-      </div>
-      <nav>
-        <a href="#">Ayuda</a>
-      </nav>
+    <div class="logo">
+      <img src="./assets/spylogo.png" alt="">
     </div>
+    <nav>
+      <a href="#">Ayuda</a>
+    </nav>
   </header>
 
   <section id="root">
-      <article class="contenido wrapper">
+    <article class="contenido">
       <input type="number" name="offset" id="offset" class="desplazamiento" placeholder="Ingresa desplazamiento"><br><br>
-      <textarea name="mensaje" id="mensaje" cols="40" rows="5" class="resultado" placeholder="Ingresa mensaje"></textarea><br>
-      <div class="resultado" id="resCifrado" ></div>
+      <input type="textbox" name="mensaje" id="mensaje" cols="40" rows="5" class="resultado" placeholder="Ingresa mensaje"><br>
+      <input type="textbox" class="resultado" id="resCifrado">
     </article>
   </section>
 
   <footer>
-
-     <input type="button" name="botonCifrar" id="botonCifrar" value="Cifrar">
-     <input type="button" name="botonDescifrar" id="botonDescifrar" value="Descifrar"><br>
-     <i class="fas fa-lock" style="font-size:48px;color:#e77018;"></i>
-     <i class="fas fa-lock-open" style="font-size:48px;color:#e77018;"></i>
-
-        <!--<input type="image" class="botonimagencifrar" id="botonCifrar" src="./assets/mirilla.png" ;>
-      <input type="image" class="fas fa-lock" id="botonCifrar" ;>
-
-      <i class="fas fa-lock"></i>
-      <i class="fas fa-lock-open"></i>
-      <i class="fas fa-user-secret"></i>-->
-    </footer>
-
-
-
+    <button name="botonCifrar" id="botonCifrar" class="button">
+      <i class="fas fa-lock" style="font-size:48px;color:#e77018;"></i><br>Cifrar
+    </button>
+    <button name="botonDescifrar" id="botonDescifrar" class="button">
+      <i class="fas fa-lock-open" style="font-size:48px;color:#e77018;"></i><br>Descifrar
+    </button>
+    <button name="enviarEmail" id="enviarEmail" class="button">
+      <i class="fas fa-share-square" style="font-size:48px;color:#e77018;"></i><br>E-mail
+    </button>
+  </footer>
 
   <script src="cipher.js"></script>
   <script src="index.js"></script>
 </body>
-<!--https://github.com/jaurinu/cdmx-2019-01-bc-core-am-cipher.git-->
 
 </html>
