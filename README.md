@@ -70,7 +70,7 @@ La metodología que se utilizó para el desarrollo del programa fue la siguiente
     - Un footer con tres botones, Cifrado, Descifrado y Compartir via e-mail.
  
     La paleta de colores seleccionada es la siguiente:
-    ![paleta]()
+    ![paleta](https://raw.githubusercontent.com/jaurinu/cdmx-2019-01-bc-core-am-cipher/master/src/assets/Prototipo/paleta%20de%20colores.jpg)
     -  #FFBA5C para header y footer
     -  #fa9448 botones y logotipo
     -  lavender para body
@@ -83,21 +83,12 @@ La metodología que se utilizó para el desarrollo del programa fue la siguiente
     ![pantallafinal]()
 
 
+### Agradecimientos
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  - A los coaches por compartir con tanta pasión
+  - A memexcode squad por caminar juntas con tanta alegría
+  - A una jedi muy especial Steph
+  
 _____________________________________
 
 # Cifrado César
