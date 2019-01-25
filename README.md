@@ -1,4 +1,4 @@
-# Documentación Cifrado César
+# Ux y Documentación Cifrado César
 * [ ] Información sobre proceso y decisiones de diseño.
 
 El proceso para el diseño del Cipher surgió a partir de la necesidad de mantener información importante y
@@ -46,7 +46,9 @@ La metodología que se utilizó para el desarrollo del programa fue la siguiente
 
     El nombre de la aplicación es la concatenación de las palabras inglesas Spy me not
 
-- Prototipo en aplicación Marvel. ![pantallas]() ![diagrama]()
+- Prototipo en aplicación Marvel.
+![pantallas](https://raw.githubusercontent.com/jaurinu/cdmx-2019-01-bc-core-am-cipher/master/src/assets/Prototipo/04_Pantallas%20marvel.jpg) 
+![diagrama](https://raw.githubusercontent.com/jaurinu/cdmx-2019-01-bc-core-am-cipher/master/src/assets/Prototipo/flowmap.png)
 
 - Feedback.
 
@@ -68,6 +70,7 @@ La metodología que se utilizó para el desarrollo del programa fue la siguiente
     - Un footer con tres botones, Cifrado, Descifrado y Compartir via e-mail.
  
     La paleta de colores seleccionada es la siguiente:
+    ![paleta]()
     -  #FFBA5C para header y footer
     -  #fa9448 botones y logotipo
     -  lavender para body
@@ -75,6 +78,9 @@ La metodología que se utilizó para el desarrollo del programa fue la siguiente
     -  beige texto en botones y ayuda
 
     La letra seleccionada vía Google Fonts es 'Special Elite'
+
+    Puedes conocer el proyecto [aqui]()
+    ![pantallafinal]()
 
 
 
