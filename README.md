@@ -1,66 +1,80 @@
-# Cifrado César
-* [ ] `README.md` incluye info sobre proceso y decisiones de diseño.
+# Documentación Cifrado César
+* [ ] Información sobre proceso y decisiones de diseño.
 
 El proceso para el diseño del Cipher surgió a partir de la necesidad de mantener información importante y
 confidencial de manera privada y segura al compartirla con otras personas.
 
-Para comenzar a diseñar el prototipo del programa se siguieron los siguientes pasos:
+La metodología que se utilizó para el desarrollo del programa fue la siguiente:
 
-- Selección de usuario.
-- Investigación de aplicaciones similares en el mercado.
-- Herramienta de mensajería interna de una organización de derechos humanos en una zona de conflicto.
-- Mensajería secreta para parejas.
+### Información relacionada con el proyecto y el usuario
 
+- Definición de las necesidades del proyecto.
+    Se requiere una aplicación que mantenga de manera segura información importante del usuario como cuentas bancarias, contraseñas y mensajes personales que puedan guardarse o compartirse por medios electrónicos de mensajería con otras personas.
+    Para ello se pretende encriptar la información, lo que requiere que la aplicación sea capaz de cifrar y descifrar los mensajes.
 
+- Definición de los objetivos del usuario con el producto.
+    El objetivo del usuario es tener a la mano una herramienta capaz de cifrar y descifrar información que por cuestiones de seguridad debe ser resguardada.
+    Es deseable que la información pueda ser compartida en unos cuantos pasos.
 
+- Definición la intención comunicativa del producto.
+    La intención comunicativa del producto es salvaguardar la información, dar seguridad y confianza.
 
+- Definición del usuario y su contexto.
+    El contexto del usuario es digital, por medio del cual se comunica y envía mensajes, datos o información personal que debe ser resguardada.
 
+### Información técnica 
 
+- El cifrado y su historia.
+    El Cifrado César es un método de criptografía por sustitución el cuál debe su nombre a Julio César quién lo usaba para comunicarse con sus generales.
 
-### Habilidades Blandas
+- ¿Cómo funciona el Cifrado César?
+    El cifrado César funciona por medio de la sustitución del alfabeto al desplazarse en el mismo un número determinado de espacios.
 
-| Habilidad |
-|-----------|
-| Planificación y organización |
-| Autoaprendizaje |
-| Solución de problemas |
-| Dar y recibir feedback |
-| Adaptabilidad |
-| Trabajo en equipo |
-| Comunicación eficaz |
-| Presentaciones |
+- Investigación y análisis de aplicaciones de cifrado existentes.
+    Se encontraron dos aplicaciones de teléfono cuya función es el cifrado y descifrado de mensajes, dichas aplicaciones constan de una sóla pantalla donde pueden llevarse a cabo ambos procesos.
 
+    Las aplicaciones son las siguientes:
 
+    - [TextCrypter](https://itunes.apple.com/mx/app/text-crypter/id1038465196?mt=8) 
+    - [iTapCrypter](https://itunes.apple.com/es/app/itapcrypter/id379047171?mt=8) 
 
+### Prototipado del proyecto  
 
+- Sketches y wireframes. ![wireframes]()
+![wireframes]()
+![wireframes]()
 
+    El nombre de la aplicación es la concatenación de las palabras inglesas Spy me not
 
+- Prototipo en aplicación Marvel. ![pantallas]() ![diagrama]()
 
+- Feedback.
 
+### Desarrollo de la aplicación 
 
+- Estructura de la aplicación e implementación de funciones.
 
+- Arquitectura de la interfaz de usuario.
+    La interfaz del usuario es una sola pantalla que:
+    - Permite elegir un desplazamiento (_offset_) indicando cuántas posiciones el cifrado desplazará cada caracter.
+    - Permite insertar un mensaje (texto) para ser cifrado.
+    - Permite ver el resultado del mensaje cifrado.
+    - Permite insertar un mensaje (texto) a descifrar.
+    - Permite ver el resultado del mensaje descifrado.
 
+    La interfaz cuenta con:
+    - Un header que contiene el nombre de la aplicación y un botón de ayuda.
+    - Un body con espacio para ingresar desplazamiento, espacio para ingresar el mensaje, espacio para ver el mensaje cifrado o descifrado.
+    - Un footer con tres botones, Cifrado, Descifrado y Compartir via e-mail.
+ 
+    La paleta de colores seleccionada es la siguiente:
+    -  #FFBA5C para header y footer
+    -  #fa9448 botones y logotipo
+    -  lavender para body
+    -  #8190A5 texto en body
+    -  beige texto en botones y ayuda
 
-* [ ] `README.md` explica claramente quiénes son los usuarios y su relación con
-  el producto.
-* [ ] `README.md` explica claramente cómo el producto soluciona los
-  problemas/necesidades de los usuarios.
-* [ ] Usa VanillaJS.
-* [ ] No utiliza `this`.
-* [ ] Implementa `cipher.encode`.
-* [ ] Implementa `cipher.decode`.
-* [ ] Pasa linter con configuración provista.
-* [ ] Pasa pruebas unitarias.
-* [ ] Pruebas unitarias cubren 70% de _statements_, _functions_ y _lines_, y un
-  mínimo del 50% de _branches_.
-* [ ] Interfaz permite elegir el `offset` o _desplazamiento_ a usar en el
-  cifrado/descifrado.
-* [ ] Interfaz permite escribir un texto para ser cifrado.
-* [ ] Interfaz muestra el resultado del cifrado correctamente.
-* [ ] Interfaz permite escribir un texto para ser descifrado.
-* [ ] Interfaz muestra el resultado del descifrado correctamente.
-
-
+    La letra seleccionada vía Google Fonts es 'Special Elite'
 
 
 
