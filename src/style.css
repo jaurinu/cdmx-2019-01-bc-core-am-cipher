@@ -8,118 +8,111 @@
 
 body {
   background: lavender;
-  background-image: url(assets/background_topsecret.png);
-  background-position: left;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 0%;
+  }
+
+.contenedor{
+  width: 100%;
+  max-width: 1000px;
+  margin: 0px auto;
 }
 
-header {
-  width: 100%;
-  overflow: hidden;
+.contenedor >div,
+.contenedor .header,
+.contenedor .footer{
+  background: lavender;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+.contenedor .header{
   background: #FFBA5C;
-  margin-bottom: 35px;
-}
+  }
 
-header .logo {
+.contenedor .header .logo{
   display: inline-block;
   vertical-align: top;
-  margin-top: 20px;
-  line-height: 30px;
-  padding: 0% 10% 0% 35%;
+  padding: 1% 10% 0% 34%;
+  }
+
+  .contenedor .header nav{
+    display: inline-block;  
+  }
+
+  .contenedor .header nav a{
+    display: inline-block;
+    color: beige;
+    font-family: 'Special Elite', cursive;
+    font-size: 23px;
+    font-weight: bold; 
+    text-decoration: none;
+    margin: 40% 0% 0% 0%;
+    padding: 5px 0px;
+  }
+
+  header nav a:hover {
+    background: #fa9448;
+    border-radius: 10px;
+  }
+
+  .contenido{
+    text-align: center;
+   }
+
+  .desplazamiento{
+    border: 2px solid #8190A5;
+    background: lavender;
+    width: 300px;
+    height: 50px;
+    border-radius: 15px;
+    font-family: 'Special Elite', cursive;
+    font-size: 20px;
+    text-align: center;
+    margin: 35px 0 15px 0;
+    opacity: 0.5;
+    }
+
+  .resultado{
+    border: 2px solid #8190A5;
+    background: lavender;
+    width: 300px;
+    height: 150px;
+    border-radius: 15px;
+    font-family: 'Special Elite', cursive;
+    font-size: 20px;
+    text-align: center;
+    margin: 20px 0 15px 0;
+    opacity: 0.5;
+    }
+
+footer{
+  background: #FFBA5C;
+  border-radius: 3px;
+  margin: 20px 0 0 0;
+  grid-area: footer;
 }
 
-header nav {
-  display: inline-block;
-  line-height: 30px;
-}
-
-header nav a {
-  display: inline-block;
-  color: beige;
-  font-family: 'Special Elite', cursive;
-  font-size: 20px;
-  font-weight: 500;
-  text-decoration: none;
-  vertical-align: top;
-  margin-top: 20px;
-  padding: 15px 0px;
-  line-height: normal;
-  font-size: 23px;
-  font-weight: bold;
-}
-
-header nav a:hover {
-  background: #fa9448;
-  border-radius: 10px;
-}
-
-.contenido {
-  width: 500px;
-  margin: 15px auto;
-  text-align: center;
-}
-
-.desplazamiento {
-  border: 2px solid #8190A5;
-  background: lavender;
-  font-family: 'Special Elite', cursive;
-  font-size: 20px;
-  font-weight: 500;
-  font-style: color #000000;
-  line-height: 20px;
-  text-align: center;
-  width: 305px;
-  height: 50px;
-  border-radius: 15px;
-  margin: inherit;
-  opacity: 0.5;
-}
-
-.resultado {
-  border: 2px solid #8190A5;
-  background: lavender;
-  font-family: 'Special Elite', cursive;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 20px;
-  text-align: center;
-  text-decoration-color: #000000;
-  width: 305px;
-  height: 150px;
-  border-radius: 15px;
-  margin: inherit;
-  opacity: 0.5;
-}
-
-footer {
-  width: 100%;
-  overflow: hidden;
-  padding: 5px 0px 7px;
-  margin: 0 auto;
-  position: relative;
-}
-
-.button {
+.button{
   background-color: #FFBA5C;
   color: beige;
   border: 0px;
-  vertical-align: bottom;
   font-family: 'Special Elite', cursive;
   font-size: 15px;
-  font-weight: 500;
   font-weight: bold;
   margin-right: 20px;
   margin-left: 20px;
-  margin-top: 65px;
-  padding: 0px 0px;
-  text-align: center;
-  width: 86px;
-  text-decoration: none;
-}
+  margin-top: 15px;
+  margin-bottom: 10px;
+  }
 
-.button:hover {
-  background: #fa9448;
-  border-radius: 10px;
+  .button:hover {
+    background: #fa9448;
+    border-radius: 10px;
+  }
+
+  .logofooter{
+  position: absolute;
+  bottom: 70px;
+  margin-left: 650px;
+  display: block;
+  overflow: hidden
 }
